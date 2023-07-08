@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+.parentdiv
+{
+    display:flex;
+    width:1155px;
+    border:2px solid red;
+    margin-left:140px;
+    margin-top:41px;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.innerdiv
+{
+    display:flex;
+    flex-direction:column;
+    border:2px solid;  
+    margin-right:20px;
+    margin-top:20px;
+    margin-left:44px;
+}
+.image1
+{
+    width: 163px;
+    height: 180px;
+}
+.bookname{
+    width: 104px;
+    height: 41px;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    color: #676767;
+    margin-left: 26px;
+    margin-top: 12px;
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+}
+
+.authorname
+{
+    width: 91px;
+    text-align: center;
+    margin-left: 33px;
+    color:red;
+    font-weight:700;
+    line-height:1.3;
+}
+.actualprice
+{
+ font-weight:bolder;
+ font-size:15px;
+ margin-left:8px;
+ margin-top:14px;
+}
+
+.offer
+{
+    background: red;
+    width: 33px;
+    height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    right: 0;
+    line-height: 20px;
+    padding-top: 6px;
+    font-weight: 700;
+    text-align: center;
+    bottom: 180px;
+    font-size: 12px;
+    position: relative;
+    left: 131px;
+    z-index: 3;
+}
+</style>
+<body>
+    <h1 style="margin:auto; margin-left:640px;">Fiction Books</h1>
+    <h1 style="margin:auto; margin-left:670px;margin-top:20px;">Categories</h1>
+    
+    <div class="parentdiv">
+        <div class="innerdiv">
+            <img src="https://www.rd.com/wp-content/uploads/2022/01/nonfiction-books-opener-with-100th-badge-UD.jpg" class="image1">
+            <span class="bookname">It Ends with Us</span>
+            <span class="authorname"><strong style="color:black">by:</strong> Colleen Hoover</span>
+            <span class="actualprice">Rs 274 <del style="margin-left:74px;font-size:18px;">$20</del>
+            </span>
+            
+        </div>
+        <div class="innerdiv">
+            <img src="https://www.rd.com/wp-content/uploads/2022/01/nonfiction-books-opener-with-100th-badge-UD.jpg" class="image1">
+            <div class="offer">30%</div>
+            <span class="bookname">It Ends with Us</span>
+            <span class="authorname"><strong style="color:black">by:</strong> Colleen Hoover</span>
+            <span class="actualprice">Rs 274 <del style="margin-left:74px;font-size:18px;">$20</del>
+            </span>
+           
+        </div>
+
+        
+    </div>
+
+</body>
+</html>

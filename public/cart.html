@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .outercart
+    {
+      display:flex;
+      flex-direction:column;
+      border:2px solid red;
+    }
+
+    h1{
+        display:inline-block;
+    }
+
+    .innercart
+    { 
+      margin-top:10px;
+      margin-bottom:10px;
+      margin-left:5px;
+      display:flex;
+      width:1500px;
+      height:150px;
+      border:2px solid black;
+    }
+
+    .productimage
+    {
+      width:120px;
+      height:140px;
+      background-repeat:no-repeat;
+      background-size:contain;
+      margin-top:5px;
+      margin-left:8px;
+    }
+    h2
+    {
+      margin-left:30px;
+    }
+    .bookedprice
+    {
+        margin-top: 90px;
+    position: relative;
+    right: 104px;
+    font-size:23px;
+    }
+
+    .addbtn
+    {
+        width: 40px;
+    height: 30px;
+    position: relative;
+    left: 864px;
+    top: 101px;
+    font-size:18px;
+    }
+
+    .text
+    {
+        width: 36px;
+    height: 24px;
+    position: relative;
+    left: 881px;
+    top: 101px;
+    border: 2px solid;
+    font-size: 18px;
+    }
+
+    .subbtn
+    {
+        width: 36px;
+    height: 32px;
+    position: relative;
+    left: 898px;
+    top: 101px;
+    /* border: 2px solid; */
+    font-size: 18px;
+    }
+
+    .total
+    {
+        display: inline-block;
+    margin-left: 881px;
+    }
+</style>
+</head>
+<body>
+     <h1>Welcome to Cart page</h1>
+     <h2 class="total">Total=</h2>
+     <div class="outercart">
+        <div class="innercart">
+          <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/368/9781501110368.jpg" class="productimage">
+           <h2>bookname</h2>
+            <p class="bookedprice">Rs 250</p>
+            <button class="addbtn">+</button>
+              <input type="text" class="text">
+              <button type="text" class="subbtn">-</button>
+        </div>
+     </div>
+</body>
+</html>

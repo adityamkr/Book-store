@@ -1,0 +1,204 @@
+body.active-modal {
+    overflow-y:auto;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+    overflow-y:auto;
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 35px;
+    border-radius: 3px;
+    /* max-width: 654px; */
+    min-width: 300px;
+    width: 583px;
+    height: 472px;
+    margin-top: 40px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.descimage
+{
+    width: 120px;
+    height: 169px;
+    border: 2px solid;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.descprice
+{
+ display:inline-block;
+ position:absolute;
+ top:67px;
+ font-size:20px;
+ left:181px;
+ color:red;
+ font-weight:700;
+}
+
+.descbookname
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size:25px;
+}
+
+.descauthorname
+{
+    display: inline-block;
+    position: relative;
+    left: 142px;
+    bottom: 56px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.descdescription
+{
+    width: 383px;
+    position: relative;
+    left: 143px;
+    bottom: 35px;
+    display: inline-block;
+    line-height: 1.6;
+}
+
+.descbuttons
+{
+    width: 115px;
+    border: 2px;
+    display: inline-block;
+    bottom: 106px;
+    position: relative;
+    right: 383px;
+}
+
+.descaddbtn
+{
+    margin-right: 23px;
+    width: 24px;
+    position: relative;
+    right: -4px;
+}
+.descaddbtn:hover{
+     background-color: #dc1212;
+     color:white;
+     cursor: pointer;
+}
+
+.descsubbtn
+{
+    margin-right: -29px;
+    width: 23px;
+    position: relative;
+    left: 22px;
+    bottom: 1px;
+}
+.descsubbtn:hover{
+    background-color:#dc1212;
+    color:white;
+}
+.desclabel
+{
+    border: 2px solid;
+    width: 23px;
+    position: relative;
+    left: 1px;
+    text-align: center;
+}
+
+.descsubbtn{
+    margin-right: -29px;
+    width: 23px;
+    position: relative;
+    left: 26px;
+    bottom: 1px;
+}
+
+.desccart
+{
+    height: 39px;
+    width: 115px;
+    position: relative;
+    bottom: 84px;
+    border-radius: 4px;
+    left: 3px;
+    color: whie;
+    background: #dc1212;
+    color: white;
+    cursor: pointer;
+}
+.descwishlist
+{
+    height: 39px;
+    width: 123px;
+    position: relative;
+    bottom: 21px;
+    border-radius: 2px;
+    left: -111px;
+    color: whie;
+    background:#fff;
+    color: #dc1212;
+    cursor: pointer;
+}
+
+.descprodet
+{
+    width: 291px;
+    height: 37px;
+    text-align: center;
+    position: relative;
+    right: -50px;
+    top: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+.descoffer
+{
+    background: red;
+    width: 26px;
+    height: 25px;
+    border-radius: 202%;
+    color: #fff;
+    right: 0;
+    line-height: 20px;
+    padding-top: 3px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    left: -139px;
+    top: 26px;
+    margin-left: 132px;
+
+}

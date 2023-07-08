@@ -1,0 +1,125 @@
+.outercart
+{
+  display:flex;
+  flex-direction:column;
+ 
+}
+
+
+
+.innercart
+{ 
+  margin-top:10px;
+  margin-bottom:50px;
+  margin-left:5px;
+  display:flex;
+  width:1500px;
+  height:150px;
+  /* border:2px solid black; */
+}
+
+.productimage
+{
+  width:120px;
+  height:140px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  margin-top:5px;
+  margin-left:8px;
+}
+h2
+{
+  margin-left: 30px;
+  font-size: 20px;
+  left: 17px;
+  position: relative;
+}
+.bookedprice
+{
+  margin-top: 90px;
+  position: relative;
+  right: -251px;
+  font-size: 23px;
+}
+
+.addbtn
+{
+  width: 40px;
+  height: 30px;
+  position: relative;
+  left: 593px;
+  top: 82px;
+  font-size: 18px;
+}
+.heading{
+  position: relative;
+  left: 530px;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.text
+{
+  
+  text-align: center;
+  width: 36px;
+  height: 30px;
+  position: relative;
+  left: 617px;
+  top: 82px;
+  border: 2px solid;
+  font-size: 18px;
+}
+
+
+
+
+.subbtn
+{
+  width: 36px;
+  height: 30px;
+  position: relative;
+  left: 635px;
+  top: 81px;
+  border: 2px solid;
+  font-size: 18px;
+}
+
+.total
+{
+    display: inline-block;
+margin-left: 881px;
+}
+.delbtn
+{
+  width: 100px;
+  height: 30px;
+  position: relative;
+  left: 664px;
+  top: 79px;
+  font-size: 18px;
+}
+
+.nameauthor
+{
+  position: relative;
+  top: 112px;
+  /* right: 124px; */
+  display: inline-block;
+  left: -156px;
+}
+.head{
+  font-size: 35px;
+}
+.paynow
+{
+  width: 78px;
+    height: 29px;
+    border-radius: 20px;
+    border: 2p solid;
+    border: 2px solid;
+    cursor:pointer;
+}
+.paynow:hover{
+  background-color:dodgerblue;
+}

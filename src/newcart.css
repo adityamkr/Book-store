@@ -1,0 +1,106 @@
+
+
+body{
+
+    
+   font-family:"poppins";
+    
+}
+.shopcart
+ {
+  margin-bottom:10px;
+  margin-top:18px;
+  margin-left:30px
+ }
+
+ .outerflex
+ {
+  /* display:flex; */
+  border:2px;
+  margin-top:20px;
+  margin-bottom:48px;
+ }
+ .prodimage
+ {
+  width:130px;
+  height:160px;
+  border:2px;
+  display:inline-block;
+  margin-left:33px;
+
+ }
+ .image
+ {
+    width:130px;
+    height:160px;
+ }
+ .bnames
+ {
+    margin-left: 50px;
+    position: absolute;
+    display: inline-block;
+    
+ }
+ .authornames
+ {
+    display: inline;
+    margin-left: 49px;
+    position: absolute;
+    margin-top: 128px;
+    font-family:"roboto";
+    font-weight:800;
+ }
+
+ /* .btn{
+    margin-left: 583px;
+    position: relative;
+    bottom: 66px;
+    font-size: 18px;
+ } */
+
+ .delbtn
+ {
+   width: 26px;
+   position: relative;
+   height: 26px;
+   top: -4px;
+ }
+ .buttons
+ {
+    margin-left: 614px;
+    display: inline-block;
+    border: 2px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    bottom: 3px;
+ }
+ .isbtn{
+   height: 27px;
+    margin-right: 16px;
+    border: 2px solid;
+    width: 25px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    background: #8df491;
+ }
+ .price
+ {
+    display: inline-block;
+    margin-left: 360px;
+    position: relative;
+    bottom:8px;
+    font-size: 20px;
+ }
+ .label
+ {
+   height: 27px;
+    width: 26px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 0px;
+    border: 2px solid;
+    color:red;
+ }

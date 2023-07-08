@@ -1,0 +1,181 @@
+.head {
+    margin-left: 590px;
+    margin-bottom: 62px;
+    margin-top: 20px;
+}
+
+.bookimages {
+    border: 2px;
+    width: 331px;
+    height: 498px;
+    display: inline-block;
+    margin-left: 65px;
+    /* background-image: url("https://www.rd.com/wp-content/uploads/2022/01/nonfiction-books-opener-with-100th-badge-UD.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.edimg {
+    width: 335px;
+    height: 497px;
+    display: inline-block;
+}
+
+.bookish {
+    position: relative;
+    bottom: 499px;
+    border: 2px;
+    display: inline-block;
+    margin-left: 463px;
+    width: 958px;
+}
+
+.by {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 70px;
+    color:crimson;
+}
+
+.writer {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 5px;
+    color:crimson;
+}
+
+.bar {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.star {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.orignal {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: -7px;
+}
+
+.xyz {
+    margin-left: 85px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: -36px;
+}
+
+.format {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 21px;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.bookformat {
+    margin-left: 85px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.noofpages {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pageno {
+    display: inline-block;
+    margin-left: 36px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.yearofissue {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.year {
+    display: inline-block;
+    margin-left: 29px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.issueyear
+{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 40px;
+}
+
+.available {
+    margin-left: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1fe72f;
+    display: block;
+}
+
+.dispatch {
+    width: 147px;
+    margin-left: 23px;
+    display: inline-block;
+}
+
+.costitem {
+    margin-left:-48px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+    left: 439px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.addtocart {
+    border: 2px solid;
+    width: 142px;
+    height: 38px;
+    display: inline-block;
+    position: relative;
+    left: 482px;
+    border-radius: 2px;
+    bottom: 16px;
+    cursor: pointer;
+    margin-right:23px;
+    
+}
+
+.addtocart:hover{
+background-color:crimson;
+color:white;
+}
